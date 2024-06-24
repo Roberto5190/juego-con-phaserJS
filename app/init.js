@@ -78,7 +78,7 @@ const guionSlides = [
         dataId: "1",
         slideTitle: "Guión literario",
         slideText: `Este juego está basado en un adolescente artista que se dedica a pintar por la ciudad en un mundo donde no es ilegal. A pesar de no ser ilegal, existe una mafia llamada PIGS que se dedica a cazar artistas para usarlos en proyectos corporativos y explotarlos día y noche. No permitas que te cojan y llena de colores la ciudad hasta que pases de nivel!`,
-        slideImg: "../assets/img/logo.png"
+        slideImg: "assets/img/logo.png"
     }
 
 ]
