@@ -7,7 +7,7 @@ class SceneLoad1 extends Phaser.Scene {
         this.load.image('fondo_load', 'assets/img/fondo_load1.png')
         this.load.image('placa_metro', 'assets/img/fondo_load1-1.png')
         this.load.spritesheet('dude_load',
-            '../assets/img/dude_load.png',
+            'assets/img/dude_load.png',
             { frameWidth: 77.5, frameHeight: 85 }
         );
 
@@ -15,7 +15,7 @@ class SceneLoad1 extends Phaser.Scene {
         this.load.image('ground', 'assets/img/platform 1.png');
         this.load.image('platform1', 'assets/img/platform1.png');
         this.load.image('platform2_1', 'assets/img/platform2_1.png');
-        this.load.image('platform2_2', '../assets/img/platform2_2.png');
+        this.load.image('platform2_2', 'assets/img/platform2_2.png');
         this.load.spritesheet('speaker',
             'assets/img/speaker.png',
             { frameWidth: 92, frameHeight: 93 }

@@ -7,7 +7,7 @@ class SceneLoad2 extends Phaser.Scene {
         this.load.image('fondo_load2', 'assets/img/fondo_load.png')
         this.load.image('cartel', 'assets/img/fondo_load2-2.png')
         this.load.spritesheet('dude_load',
-            '../assets/img/dude_load.png',
+            'assets/img/dude_load.png',
             { frameWidth: 77.5, frameHeight: 85 }
         );
 
