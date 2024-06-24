@@ -6,39 +6,39 @@ class SceneB extends Phaser.Scene {
 
     preload() {
 
-        this.load.image('fondo', '../assets/img/fondo2.png');
-        this.load.image('ground', '../assets/img/platform 1.png');
-        this.load.image('platform3', '../assets/img/platform3.png');
-        this.load.image('platform2', '../assets/img/platform3_1.png');
-        this.load.image('platform3_2', '../assets/img/platform3_2.png');
-        this.load.image('platform3_3', '../assets/img/platform3_3.png');
-        this.load.image('platform_police', '../assets/img/platform_police.png');
-        this.load.image('platform_police1', '../assets/img/platform_police1.png');
+        this.load.image('fondo', 'assets/img/fondo2.png');
+        this.load.image('ground', 'assets/img/platform 1.png');
+        this.load.image('platform3', 'assets/img/platform3.png');
+        this.load.image('platform2', 'assets/img/platform3_1.png');
+        this.load.image('platform3_2', 'assets/img/platform3_2.png');
+        this.load.image('platform3_3', 'assets/img/platform3_3.png');
+        this.load.image('platform_police', 'assets/img/platform_police.png');
+        this.load.image('platform_police1', 'assets/img/platform_police1.png');
         this.load.spritesheet('speaker',
-            '../assets/img/speaker.png',
+            'assets/img/speaker.png',
             { frameWidth: 92, frameHeight: 93 }
         )
-        this.load.image('graffiti', '../assets/img/graffiti.png');
-        this.load.image('graffiti1', '../assets/img/graffiti1.png');
-        this.load.image('graffiti2', '../assets/img/graffiti2.png');
-        this.load.image('graffiti3', '../assets/img/graffiti3.png');
-        this.load.image('metro', '../assets/img/metro.png')
-        this.load.image('metro_right', '../assets/img/metro_right.png')
-        this.load.image('star', '../assets/img/spay.png');
+        this.load.image('graffiti', 'assets/img/graffiti.png');
+        this.load.image('graffiti1', 'assets/img/graffiti1.png');
+        this.load.image('graffiti2', 'assets/img/graffiti2.png');
+        this.load.image('graffiti3', 'assets/img/graffiti3.png');
+        this.load.image('metro', 'assets/img/metro.png')
+        this.load.image('metro_right', 'assets/img/metro_right.png')
+        this.load.image('star', 'assets/img/spay.png');
         this.load.spritesheet('policia',
-            '../assets/img/policia2.png',
+            'assets/img/policia2.png',
             { frameWidth: 60, frameHeight: 52.26 }
         );
         this.load.spritesheet('dude',
-            '../assets/img/dude3.png',
+            'assets/img/dude3.png',
             { frameWidth: 40, frameHeight: 43.33 }
         );
         this.load.spritesheet('game_over',
-            '../assets/img/game_over.png',
+            'assets/img/game_over.png',
             { frameWidth: 291, frameHeight: 68 }
         );
         this.load.spritesheet('you_win',
-            '../assets/img/you_win.png',
+            'assets/img/you_win.png',
             { frameWidth: 229, frameHeight: 68 })
 
 
