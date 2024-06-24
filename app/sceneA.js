@@ -8,6 +8,10 @@ class SceneA extends Phaser.Scene {
     preload() {
 
         // LOS RECURSOS SE CARGAN EN LA PANTALLA DE CARGA --> SceneLoad1
+        this.load.spritesheet('dude_load',
+            'assets/img/dude_load.png',
+            { frameWidth: 77.5, frameHeight: 85 }
+        );
 
     };
 
