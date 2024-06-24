@@ -1,28 +1,85 @@
 <!DOCTYPE html>
 <html class="no-js" lang="es">
-    <head>
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, user-scalable=no"
-        />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <meta name="theme-color" content="#fafafa" />
 
-        <title>Boiler</title>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#fafafa" />
 
-        <meta name="description" content="" />
-        <link rel="apple-touch-icon" href="/assets/img/icon.png" />
-        <link rel="icon" href="/assets/img/favicon.png" />
-        <link rel="stylesheet" href="/assets/css/main.css" />
-        <link rel="stylesheet" href="/assets/css/main.css.map" />
-    </head>
+    <title>Juego_Phaser</title>
 
-    <body>
-        <div class="app">
-            <h1>El boilerplate v3.0</h1>
-            <p>Con algunos iconos de bootstrap: <span class="bi-alarm"></span></p>
+    <meta name="description" content="" />
+    <link rel="apple-touch-icon" href="/assets/img/icon.png" />
+    <link rel="icon" href="/assets/img/favicon.png" />
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser-arcade-physics.min.js"></script>
+    <!-- <script src="/app/main.js"></script> -->
+    <script src="/app/sceneLoad1.js"></script>
+    <script src="/app/sceneLoad2.js"></script>
+    <script src="/app/sceneA.js"></script>
+    <script src="/app/sceneB.js"></script>
+    <script src="/app/sceneC.js"></script>
+
+
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/main.css.map" />
+</head>
+
+<body>
+    <div class="app">
+        <div class="background_cable">
+            <img src="assets/img/fondo_cable.png" alt="">
         </div>
-        <script src="/app/main.js"></script>
-    </body>
+        <!-- /background_cable -->
+
+        <header class="header">
+            <div class="header_logo">
+                <img src="/assets/img/logo.png" alt="">
+            </div>
+            <ul class="header_menu">
+                <li class="header_menu_item_1">Guión</li>
+                <li class="header_menu_item_2">Arte Conceptual</li>
+                <li class="header_menu_item_3">Juego</li>
+            </ul>
+        </header>
+        <!-- /header -->
+
+        <!-- SLIDER -->
+        <div class="section_slider">
+            <title class="section_title">Arte Conceptual</title>
+            <div class="section_slides" id="slider">
+
+
+            </div>
+
+
+        </div> 
+        
+    </div>
+    <!-- /app -->
+
+
+    <div class="game">
+        <div class="console">
+            <div class="game_controls_left_container">
+                <div class="game_controls_left">
+                    <img src="assets/img/icon_dude.svg" alt="">
+                </div>
+            </div>
+    
+            <div id="game_container"></div>
+    
+            <div class="game_controls_right_container">
+                <div class="game_controls_right">
+                    <img src="assets/img/icon_dude.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /game -->
+
+    <script src="/app/init.js"></script>
+</body>
+
 </html>
