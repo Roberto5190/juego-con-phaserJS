@@ -7049,7 +7049,7 @@ body {
 .app .section_slider {
   grid-area: 2/1/4/2;
   align-content: center;
-  margin: 4rem auto 0 auto;
+  margin: 4rem auto;
   min-height: 240px;
   max-width: 1150px;
   position: relative;
