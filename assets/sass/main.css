@@ -7036,14 +7036,20 @@ body {
   color: black;
 }
 .app .section_title {
+  display: block;
   grid-area: 2/1/4/2;
   position: absolute;
   top: -80px;
-  display: block;
   color: white;
   font-weight: bold;
   font-size: 3.75rem;
   margin-bottom: 3.75rem;
+}
+@media (width < 700px) {
+  .app .section_title {
+    font-size: 2rem;
+    top: -50px;
+  }
 }
 .app .section_slider {
   grid-area: 2/1/4/2;
@@ -7088,7 +7094,7 @@ body {
 .app .section_slider .section_slides .slides .slides_left .slides_left_title {
   display: block;
   color: #B2B2B2;
-  font-size: 2.25rem;
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
   margin-bottom: 1rem;
 }
 .app .section_slider .section_slides .slides .slides_left .slides_left_text {
