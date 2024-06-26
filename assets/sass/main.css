@@ -7055,7 +7055,7 @@ body {
   grid-area: 2/1/4/2;
   align-content: center;
   margin: 4rem auto;
-  min-height: 240px;
+  max-height: 440px;
   max-width: 1150px;
   position: relative;
   padding: 2rem 2.5rem;
@@ -7068,7 +7068,8 @@ body {
 }
 @media (width < 700px) {
   .app .section_slider {
-    min-height: auto;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
     max-width: 350px;
   }
 }
@@ -7089,6 +7090,7 @@ body {
 @media (width < 700px) {
   .app .section_slider .section_slides .slides {
     flex-wrap: wrap;
+    gap: 1.5rem;
   }
 }
 .app .section_slider .section_slides .slides .slides_left .slides_left_title {
