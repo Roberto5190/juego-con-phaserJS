@@ -32,7 +32,7 @@ const arteConceptualSlides = [
         dataId: "2",
         slideTitle: "Escenario 1",
         slideText: `En este nivel se pretende hacer un escenario donde las plataformas sean sencillas y continuas para que el usuario se acostumbre a la jubigabilidad y las físicas del juego. Esto se consigue haciendo unos andenes de metro que actúan a modo de plataforma por donde irán el personaje y el  ain posibilidad de caer a un nivel inferior. Por otro lado el concepto de estación de metro nos permite relacionar este escenario con el lugar en el que se desarrolla el juego, que es la ciudad.`,
-        slideImg: "assets/img/escenario1.png"
+        slideImg: "assets/img/escenario_1.png"
     },
     {
         dataId: "3",
@@ -45,7 +45,7 @@ const arteConceptualSlides = [
         dataId: "4",
         slideTitle: "Escenario 2",
         slideText: `En el segundo escenario se dificulta la jugabilidad haciendo plataformas discontinuas donde se tiene que saltar de una a otra. Tiene más detalles como sombras o profundidad, así como letreros luminosos, marquesinas o tiendas. La intención es reflejar un escenario de ciudad nocturna sin gente donde el jugador pueda recoger los puntos que necesita evitando a los guardias y pudiendo caer fácilmente hacia los niveles inferiores, al contrario que pasaba en el escenario anterior.`,
-        slideImg: "assets/img/escenario2.png"
+        slideImg: "assets/img/escenario_2.png"
     },
     {
         dataId: "5",
